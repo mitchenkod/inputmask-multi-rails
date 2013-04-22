@@ -5,7 +5,7 @@ require 'inputmask-multi-rails/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "inputmask-multi-rails"
-  gem.version       = Inputmask::Multi::Rails::VERSION
+  gem.version       = InputmaskMulti::Rails::VERSION
   gem.authors       = ["vaski"]
   gem.email         = ["vadimmasakovski@gmail.com"]
   gem.description   = %q{Inputmask Multi for Rails. https://github.com/andr-04/inputmask-multi}
