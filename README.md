@@ -19,8 +19,8 @@ Or install it yourself as:
 Add the following to your `app/assets/javascripts/application.js`:
 
     //= require jquery.bind-first
-    //= require jquery.inputmask.js
-    //= require jquery.inputmask-multi.js
+    //= require jquery.inputmask
+    //= require jquery.inputmask-multi
 
 You can also get the masks files to public directory by running the install generator:
 
