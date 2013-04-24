@@ -1,4 +1,4 @@
-# InputmaskMulti::Rails
+# Inputmask::Multi::Rails
 
 Inputmask Multi for Rails. https://github.com/andr-04/inputmask-multi
 
@@ -24,7 +24,7 @@ Add the following to your `app/assets/javascripts/application.js`:
 
 You can also get the masks files to public directory by running the install generator:
 
-    $ rails generate inputmask_multi:install
+    $ rails generate inputmask_multi_rails:install
 
 ## Usage
 
