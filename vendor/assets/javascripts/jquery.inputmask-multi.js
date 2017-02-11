@@ -9,7 +9,7 @@
  * https://github.com/RobinHerbots/jquery.inputmask
  * https://github.com/private-face/jquery.bind-first
  */
-(function ($) {
+load = function () {
     $.masksLoad = function(url) {
         var maskList;
         $.ajax({
@@ -379,4 +379,6 @@
                 return this;
         }
     }
-})(jQuery);
+}
+
+$(document).on('turbolinks:load, ready', load)
